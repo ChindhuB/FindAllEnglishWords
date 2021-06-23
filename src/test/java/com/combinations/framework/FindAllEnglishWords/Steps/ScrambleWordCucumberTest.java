@@ -24,6 +24,11 @@ public class ScrambleWordCucumberTest {
 		combword = WordCombination.passtheWord(word); 
 	}
 
+	/*------As per Instruction assume each word need to be passed to mocked online dictionary--------------
+	 * Dictionary.isEnglishWord(String word) connects to a (mocked) online
+	 * dictionary and returns Boolean true if the String passed to it is an English
+	 * word, return false otherwise
+	 */
 	@When("check word using dictionary")
 	public void check_word_using_dictionary() {
 		for (String w : combword) {

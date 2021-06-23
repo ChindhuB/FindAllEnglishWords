@@ -22,3 +22,9 @@ Scenario Outline: Unscramble the given word   # src/test/resources/features/unsc
   When find all combinations                  # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.find_all_combinations()
   And check word using dictionary             # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.check_word_using_dictionary()
   Then unscramble word combination resultset  # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.unscramble_word_combination_resultset()
+
+Scenario Outline: Unscramble the given word     # src/test/resources/features/unscramble.feature:31
+  Given a word to unscramble is given "Working" # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.a_word_to_unscramble_is_given(java.lang.String)
+  When find all combinations                    # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.find_all_combinations()
+  And check word using dictionary               # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.check_word_using_dictionary()
+  Then unscramble word combination resultset    # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.unscramble_word_combination_resultset()

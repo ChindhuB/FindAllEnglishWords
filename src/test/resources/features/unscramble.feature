@@ -28,4 +28,5 @@ Feature: Unscramble word
      | "Rock"  |
      | "Socks" |
      | "glass" |
+     | "Working" |
       
