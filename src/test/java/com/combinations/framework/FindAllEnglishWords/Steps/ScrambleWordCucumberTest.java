@@ -1,3 +1,4 @@
+/*@author Chindhu Babu*/
 package com.combinations.framework.FindAllEnglishWords.Steps;
 
 import java.util.ArrayList;
@@ -7,6 +8,7 @@ import com.combinations.framework.FindAllEnglishWords.classpackage.WordCombinati
 import com.combinations.framework.FindAllEnglishWords.util.Dictionary;
 import io.cucumber.java.en.*;
 
+/*---Data Driven Test cases------*/
 public class ScrambleWordCucumberTest {
 	ArrayList<String> existwords = new ArrayList<String>();
 	ArrayList<String> nonexistwords = new ArrayList<String>();

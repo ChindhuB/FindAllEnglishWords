@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="23.606">
-<testcase classname="Unscramble word" name="Unscramble the given word" time="8.537">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="23.17">
+<testcase classname="Unscramble word" name="Unscramble the given word" time="7.696">
 <system-out><![CDATA[Given a word to unscramble is given "Work"..................................passed
 When find all combinations..................................................passed
 And check word using dictionary.............................................passed
 Then unscramble word combination resultset..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Unscramble word" name="Unscramble the given word 2" time="2.428">
+<testcase classname="Unscramble word" name="Unscramble the given word 2" time="2.627">
 <system-out><![CDATA[Given a word to unscramble is given "Rock"..................................passed
 When find all combinations..................................................passed
 And check word using dictionary.............................................passed
 Then unscramble word combination resultset..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Unscramble word" name="Unscramble the given word 3" time="6.563">
+<testcase classname="Unscramble word" name="Unscramble the given word 3" time="7.262">
 <system-out><![CDATA[Given a word to unscramble is given "Socks".................................passed
 When find all combinations..................................................passed
 And check word using dictionary.............................................passed
 Then unscramble word combination resultset..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Unscramble word" name="Unscramble the given word 4" time="5.743">
+<testcase classname="Unscramble word" name="Unscramble the given word 4" time="5.298">
 <system-out><![CDATA[Given a word to unscramble is given "glass".................................passed
 When find all combinations..................................................passed
 And check word using dictionary.............................................passed

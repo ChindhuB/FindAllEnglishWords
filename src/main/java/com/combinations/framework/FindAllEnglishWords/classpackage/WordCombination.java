@@ -1,3 +1,4 @@
+/*@author Chindhu Babu*/
 package com.combinations.framework.FindAllEnglishWords.classpackage;
 
 import java.util.ArrayList;
@@ -6,6 +7,10 @@ import java.util.HashSet;
 import org.paukov.combinatorics3.Generator;
 
 public class WordCombination {
+	/*
+	 * method used to generate all combinations of word 
+	 * ---used combinatoricslib3  dependency----
+	 */
 	public static HashSet<String> passtheWord(String word) {
 		ArrayList<Character> chararr = new ArrayList<Character>();
 		HashSet<String> stringcombarr = new HashSet<String>();

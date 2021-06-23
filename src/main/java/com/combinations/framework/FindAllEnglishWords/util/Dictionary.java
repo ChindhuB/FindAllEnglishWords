@@ -1,3 +1,4 @@
+/*@author Chindhu Babu*/
 package com.combinations.framework.FindAllEnglishWords.util;
 
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options;
@@ -9,7 +10,8 @@ import io.restassured.specification.RequestSpecification;
 
 public class Dictionary {
 	private static boolean wordexists;
-	
+
+	/*----Calling local online dictionary-----*/
 	public static boolean isEnglishword(String aword) {
 		
 		WireMockServer wm = new WireMockServer(options().port(2345).usingFilesUnderDirectory("C:/Users/Cibin/Desktop/BusyQA/Eclipse/FindAllEnglishWords/src/test/resources"));

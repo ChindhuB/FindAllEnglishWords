@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="28391" started-at="2021-06-23T03:52:12 EDT" finished-at="2021-06-23T03:52:40 EDT">
+  <suite name="Surefire suite" duration-ms="28427" started-at="2021-06-23T10:20:34 EDT" finished-at="2021-06-23T10:21:03 EDT">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="28391" started-at="2021-06-23T03:52:12 EDT" finished-at="2021-06-23T03:52:40 EDT">
+    <test name="Surefire test" duration-ms="28427" started-at="2021-06-23T10:20:34 EDT" finished-at="2021-06-23T10:21:03 EDT">
       <class name="com.combinations.framework.FindAllEnglishWords.Runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="setUpClass" is-config="true" duration-ms="1262" started-at="2021-06-23T03:52:12 EDT" finished-at="2021-06-23T03:52:13 EDT">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="setUpClass" is-config="true" duration-ms="1155" started-at="2021-06-23T10:20:34 EDT" finished-at="2021-06-23T10:20:36 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="runScenario" duration-ms="8742" started-at="2021-06-23T03:52:13 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T03:52:22 EDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="runScenario" duration-ms="7880" started-at="2021-06-23T10:20:36 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T10:20:44 EDT">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="runScenario" duration-ms="2438" started-at="2021-06-23T03:52:22 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T03:52:24 EDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="runScenario" duration-ms="2638" started-at="2021-06-23T10:20:44 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T10:20:46 EDT">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="runScenario" duration-ms="6573" started-at="2021-06-23T03:52:24 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T03:52:31 EDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="runScenario" duration-ms="7263" started-at="2021-06-23T10:20:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T10:20:53 EDT">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="runScenario" duration-ms="5749" started-at="2021-06-23T03:52:31 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T03:52:37 EDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="runScenario" duration-ms="5304" started-at="2021-06-23T10:20:53 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T10:20:59 EDT">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="tearDownClass" is-config="true" duration-ms="3542" started-at="2021-06-23T03:52:37 EDT" finished-at="2021-06-23T03:52:40 EDT">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="tearDownClass" is-config="true" duration-ms="4113" started-at="2021-06-23T10:20:59 EDT" finished-at="2021-06-23T10:21:03 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
