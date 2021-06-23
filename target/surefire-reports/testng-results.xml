@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="28391" started-at="2021-06-23T03:52:12 EDT" finished-at="2021-06-23T03:52:40 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="28391" started-at="2021-06-23T03:52:12 EDT" finished-at="2021-06-23T03:52:40 EDT">
+      <class name="com.combinations.framework.FindAllEnglishWords.Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="setUpClass" is-config="true" duration-ms="1262" started-at="2021-06-23T03:52:12 EDT" finished-at="2021-06-23T03:52:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="runScenario" duration-ms="8742" started-at="2021-06-23T03:52:13 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T03:52:22 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unscramble the given word"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Unscramble word]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="runScenario" duration-ms="2438" started-at="2021-06-23T03:52:22 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T03:52:24 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unscramble the given word"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Unscramble word]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="runScenario" duration-ms="6573" started-at="2021-06-23T03:52:24 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T03:52:31 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unscramble the given word"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Unscramble word]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="runScenario" duration-ms="5749" started-at="2021-06-23T03:52:31 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-23T03:52:37 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unscramble the given word"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Unscramble word]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.combinations.framework.FindAllEnglishWords.Runner.TestRunner@29b5cd00]" name="tearDownClass" is-config="true" duration-ms="3542" started-at="2021-06-23T03:52:37 EDT" finished-at="2021-06-23T03:52:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.combinations.framework.FindAllEnglishWords.Runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

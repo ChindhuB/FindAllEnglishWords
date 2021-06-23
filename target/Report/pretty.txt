@@ -1,0 +1,24 @@
+
+Scenario Outline: Unscramble the given word  # src/test/resources/features/unscramble.feature:27
+  Given a word to unscramble is given "Work" # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.a_word_to_unscramble_is_given(java.lang.String)
+  When find all combinations                 # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.find_all_combinations()
+  And check word using dictionary            # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.check_word_using_dictionary()
+  Then unscramble word combination resultset # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.unscramble_word_combination_resultset()
+
+Scenario Outline: Unscramble the given word  # src/test/resources/features/unscramble.feature:28
+  Given a word to unscramble is given "Rock" # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.a_word_to_unscramble_is_given(java.lang.String)
+  When find all combinations                 # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.find_all_combinations()
+  And check word using dictionary            # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.check_word_using_dictionary()
+  Then unscramble word combination resultset # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.unscramble_word_combination_resultset()
+
+Scenario Outline: Unscramble the given word   # src/test/resources/features/unscramble.feature:29
+  Given a word to unscramble is given "Socks" # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.a_word_to_unscramble_is_given(java.lang.String)
+  When find all combinations                  # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.find_all_combinations()
+  And check word using dictionary             # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.check_word_using_dictionary()
+  Then unscramble word combination resultset  # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.unscramble_word_combination_resultset()
+
+Scenario Outline: Unscramble the given word   # src/test/resources/features/unscramble.feature:30
+  Given a word to unscramble is given "glass" # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.a_word_to_unscramble_is_given(java.lang.String)
+  When find all combinations                  # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.find_all_combinations()
+  And check word using dictionary             # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.check_word_using_dictionary()
+  Then unscramble word combination resultset  # com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.unscramble_word_combination_resultset()

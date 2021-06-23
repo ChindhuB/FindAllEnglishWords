@@ -1,0 +1,271 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T07:52:13.781Z",
+        "line": 27,
+        "name": "Unscramble the given word",
+        "description": "",
+        "id": "unscramble-word;unscramble-the-given-word;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "a word to unscramble is given \"Work\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Work\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.a_word_to_unscramble_is_given(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "find all combinations",
+            "match": {
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.find_all_combinations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8337000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "check word using dictionary",
+            "match": {
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.check_word_using_dictionary()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "unscramble word combination resultset",
+            "match": {
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.unscramble_word_combination_resultset()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T07:52:22.331Z",
+        "line": 28,
+        "name": "Unscramble the given word",
+        "description": "",
+        "id": "unscramble-word;unscramble-the-given-word;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "a word to unscramble is given \"Rock\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rock\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.a_word_to_unscramble_is_given(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "find all combinations",
+            "match": {
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.find_all_combinations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2420000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "check word using dictionary",
+            "match": {
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.check_word_using_dictionary()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "unscramble word combination resultset",
+            "match": {
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.unscramble_word_combination_resultset()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T07:52:24.774Z",
+        "line": 29,
+        "name": "Unscramble the given word",
+        "description": "",
+        "id": "unscramble-word;unscramble-the-given-word;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "a word to unscramble is given \"Socks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Socks\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.a_word_to_unscramble_is_given(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "find all combinations",
+            "match": {
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.find_all_combinations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6551000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "check word using dictionary",
+            "match": {
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.check_word_using_dictionary()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "unscramble word combination resultset",
+            "match": {
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.unscramble_word_combination_resultset()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-23T07:52:31.343Z",
+        "line": 30,
+        "name": "Unscramble the given word",
+        "description": "",
+        "id": "unscramble-word;unscramble-the-given-word;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "a word to unscramble is given \"glass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"glass\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.a_word_to_unscramble_is_given(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "find all combinations",
+            "match": {
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.find_all_combinations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5734000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "check word using dictionary",
+            "match": {
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.check_word_using_dictionary()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "unscramble word combination resultset",
+            "match": {
+              "location": "com.combinations.framework.FindAllEnglishWords.Steps.ScrambleWordCucumberTest.unscramble_word_combination_resultset()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Unscramble word",
+    "description": "",
+    "id": "unscramble-word",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/unscramble.feature",
+    "tags": []
+  }
+]
